@@ -13,11 +13,13 @@ h1 {
   margin: 15px 0; }
 
 h2 {
+  font-size: 22px;
   margin: 5px 0; }
 
-h5 {
+h3 {
   margin: 5px 0;
-  color: #707070; }
+  color: #707070;
+  font-size: 15px; }
 
 /**header**/
 .image-header {
@@ -39,6 +41,9 @@ h5 {
 .blog-entries {
   margin: 40px; }
 
+.blog-entries ul li {
+  margin-bottom: 30px; }
+
 .entry h2 {
   text-transform: uppercase; }
 
@@ -55,7 +60,8 @@ h5 {
   padding: 5px 0;
   height: 10px; }
 
-.footer h6 {
+.footer h4 {
   color: white;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: 10px; }
