@@ -1,5 +1,7 @@
 destination: docs
 
+baseurl: ""
+
 defaults:
 - scope:
     path: ""
