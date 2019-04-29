@@ -1,6 +1,6 @@
 destination: docs
 
-baseurl: "/Dev_at_40/"
+baseurl: "/Dev_at_40"
 
 defaults:
 - scope:
