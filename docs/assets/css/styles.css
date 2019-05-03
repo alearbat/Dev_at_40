@@ -87,7 +87,11 @@ h3 {
   /* Green */
   color: white; }
 
-p {
+.testJS p {
   font-size: 30px;
   color: #4CAF50;
   /* Green */ }
+
+.testJS1 p {
+  font-size: 15px;
+  max-width: 800px; }
