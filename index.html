@@ -23,7 +23,12 @@ title: Developer at 40
             <h3>{{ post.date | date: '%B %d, %Y'}}</h3>
             <p>{{ post.content }}</p>
           </li>
+          {% if post.content contains 'surprise' %}
+              <button class="button_gift" type="button" onclick="myGift()"><i class="fas fa-gifts"></i></button>
+              <p id="gift"></p>
+          {% endif %}
         {% endfor %}
+        
       </ul>  
       
     </main>
