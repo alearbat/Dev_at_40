@@ -69,6 +69,21 @@ h3 {
   font-weight: bold;
 }
 
+.button_gift {
+  font-size: 35px;
+  color: red;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+.button_gift:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+#gift {
+  color:red;
+}
 /**footer**/
 
 .footer {
