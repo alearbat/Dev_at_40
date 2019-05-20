@@ -1,10 +1,3 @@
-/*function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello JavaScript!";
-}
-*/
-
-//Jquery version
-
 function myFunction() {
   $("#demo").html("Hello JavaScript!!");
 }
@@ -22,15 +15,8 @@ while (input <= 100) {
   } else {
     mult = mult + " " + (input);
   }
-input++;
+  input++;
 }
-/*
-function oneToOneHundred() {
-  document.getElementById("numbers").innerHTML = mult;
-}
-*/
-
-//Jquery version 
 
 function oneToOneHundred() {
   $("#numbers").html(mult);
