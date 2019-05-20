@@ -7,7 +7,7 @@
   } else {
     document.getElementById("button_gift").className = "fas fa-chevron-down fa-rotate-270";
     document.getElementById("gift").style.display = "none";
-    }
+  }
 }
 */
 

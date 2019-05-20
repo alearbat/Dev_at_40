@@ -22,13 +22,14 @@ while (input <= 100) {
   } else {
     mult = mult + " " + (input);
   }
-  input++;
+input++;
 }
 /*
-  function oneToOneHundred() {
-    document.getElementById("numbers").innerHTML = mult;
-  }
+function oneToOneHundred() {
+  document.getElementById("numbers").innerHTML = mult;
+}
 */
+
 //Jquery version 
 
 function oneToOneHundred() {
