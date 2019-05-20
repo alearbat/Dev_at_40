@@ -24,7 +24,7 @@ title: Developer at 40
             <p>{{ post.content }}</p>
           </li>
           {% if post.content contains 'surprise' %}
-              <button class="button_gift" type="button" onclick="myGift()"><i class="fas fa-gifts"></i></button>
+              <button class="button_gift" type="button" onclick="myGift()"><i id="button_gift" class="fas fa-chevron-down fa-rotate-270"></i></i></button>
               <p id="gift"></p>
           {% endif %}
         {% endfor %}
